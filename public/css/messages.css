@@ -1,0 +1,9 @@
+.message {
+    border: 1px solid darkslategrey;
+    margin: 2%;
+    width: 30%;
+}
+
+.equalWidth {
+    width: 25%;
+}

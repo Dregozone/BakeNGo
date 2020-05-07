@@ -1,0 +1,10 @@
+.pageContainer {
+    text-align: center;
+}
+
+.userDetails {
+    margin: 2% 35%;
+    width: 30%;
+    border: 1px solid darkslategrey;
+    border-collapse: collapse;
+}

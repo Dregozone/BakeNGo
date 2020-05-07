@@ -1,0 +1,132 @@
+* {
+    font-family: sans-serif;
+    color: darkslategrey;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    border: 1px solid darkslategrey;
+    background: aliceblue;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    font-size: 2vw;
+    -webkit-box-shadow: 0 6px 10px -5px royalblue;
+    -moz-box-shadow: 0 6px 10px -5px royalblue;
+    box-shadow: 0 6px 10px -5px royalblue;
+    z-index: 9;
+}
+    header > * {
+        width: 32%;
+        margin: 0.5%;
+        text-align: center;
+    }
+    .logo {
+        max-height: 124px;
+        max-width: 274px;
+    }
+    .site {
+        width: 50%;
+    }
+        .company {
+            margin: 0;
+            padding: 0;
+        }
+        .strapline {
+            margin: 0;
+            padding: 0;
+        }
+    nav {
+        width: 30%;
+    }
+
+main {
+    position: relative;
+    padding: 2%;
+    background: #e6f7ff;
+    z-index: 1;
+}
+
+.title {
+    font-size: 240%;
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.right {
+    text-align: right;
+}
+
+.pad {
+    padding: 1.4%;
+}
+
+.bordered {
+    border-bottom: 1px solid darkslategrey;
+}
+
+.allBordered {
+    border: 1px solid darkslategrey;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    -webkit-box-shadow: 0 -6px 10px -5px royalblue;
+    -moz-box-shadow: 0 -6px 10px -5px royalblue;
+    box-shadow: 0 -6px 10px -5px royalblue;
+    padding: 1%;
+    z-index: 9;
+}
+    .copyright {
+        display: block;
+        padding-bottom: 1%;
+    }
+    .flex-container-footer {
+        display: flex;
+        flex-direction: row;
+    }
+    .flex-container-footer > article.footerItem {
+        width: 33%;
+        margin: 1% auto;
+        text-align: center;
+        line-height: 100%;
+        font-size: 100%;
+    }
+    .socialMedia {
+        width: 30px;
+        height: 30px;
+    }
+
+.success {
+    border: 1px solid darkgreen;
+    margin: 5% 20%;
+    background: white;
+    text-align: center;
+    font-size: 130%;
+    padding: 2% 0;
+}
+
+.error {
+    border: 1px solid darkorange;
+    margin: 5% 20%;
+    background: white;
+    text-align: center;
+    font-size: 130%;
+    padding: 2% 0;
+}
+
+.bigLink {
+    color: #0033cc;
+}

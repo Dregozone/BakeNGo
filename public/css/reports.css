@@ -1,0 +1,19 @@
+.header {
+    text-align: center;
+}
+
+.order {
+    margin: 1%;
+    border: 1px solid darkslategrey;
+    width: 40%;
+    text-align: center;
+}
+.summary {
+    border: 1px solid darkslategrey;
+    margin-left: 35%;
+    width: 30%;
+}
+.right {
+    text-align: right;
+    width: 55%;
+}
